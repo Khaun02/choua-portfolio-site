@@ -17,6 +17,15 @@ header {
     justify-content: center;
 }
 
+.nav-bar nav a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    gap: 100px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+}
+
 /* footer css */
 footer {
     background-color: #f2f9ff;
@@ -25,7 +34,6 @@ footer {
 }
 
 .footer-nav nav a{
-    justify-content: space-between;
     text-decoration: none;
     color: black;
     gap: 100px;
@@ -36,8 +44,4 @@ footer {
     color: gray;
     margin-top: 2rem;
     margin-bottom: 0rem;
-}
-
-img {
-    width: 50%;
 }

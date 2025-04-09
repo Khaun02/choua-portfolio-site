@@ -3,7 +3,27 @@
     04/09/2025
 */
 
+img {
+    width: 50%;
+}
 
+/* main element css */
+.main-container {
+    display: flex;
+    text-align: center;
+}
 
+.image-container {
+    display: inline-block;
+}
+
+.about-container {
+    display: inline-block;
+}
+
+.linkedIn {
+    margin: 1rem auto;
+    width: 10%
+}
 
 
