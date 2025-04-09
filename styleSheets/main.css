@@ -10,19 +10,24 @@ body {
 /* header css */
 header {
     display: flex;
+    margin-bottom: 2rem;
 }
 
-.nav-bar {
+header h1 {
+    margin-left: 3rem;
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     justify-content: center;
+    text-align: center;
 }
 
-.nav-bar nav a{
-    justify-content: space-between;
+nav a{
     text-decoration: none;
     color: black;
-    gap: 100px;
-    margin-top: 1rem;
     margin-right: 3rem;
 }
 
@@ -31,6 +36,7 @@ footer {
     background-color: #f2f9ff;
     padding: 3rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .footer-nav nav a{

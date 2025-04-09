@@ -10,15 +10,17 @@ img {
 /* main element css */
 .main-container {
     display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
 .image-container {
-    display: inline-block;
+    flex: 1;
 }
 
 .about-container {
-    display: inline-block;
+    flex: 1;
+    padding: auto auto;
 }
 
 .linkedIn {
