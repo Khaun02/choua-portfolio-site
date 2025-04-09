@@ -23,9 +23,28 @@ img {
     padding: auto auto;
 }
 
+.about-container__p2 h3{
+    font-size: 3rem;
+}
+
+/* buttons */
+
+.button-container button, a{
+    border-radius: 0.75rem;
+    text-decoration: none;
+    color: black;
+}
+
+.button-container button:hover{
+    background-color: white;
+}
+
+
 .linkedIn {
     margin: 1rem auto;
     width: 10%
 }
+
+
 
 
