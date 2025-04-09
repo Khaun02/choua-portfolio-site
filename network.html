@@ -6,7 +6,7 @@
 <html lang="en">
 
 <head>
-    <title>title goes here</title>
+    <title>Connect With Me</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styleSheets/main.css">
     <link rel="stylesheet" href="styleSheets/network.css">
@@ -27,6 +27,54 @@
     </header>
 
     <main>
+
+        <div class="network-info">
+            <h1>Let's Connect!</h1>
+            <p>Whether you’re an employer, professional, or fellow student, I’d love to stay in touch and explore opportunities to collaborate, grow, and share ideas.</p>
+        </div>
+        
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <label for="name">*Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">*Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="linkedIn">LinkedIn Profile</label>
+            <input type="text" id="linkedIn" name="linkedIn" placeholder="optional">
+
+            <fieldset>
+                <legend>Are you a: </legend>
+                <input type="radio" id="employer">
+                <label for="employer">Employer</label>
+                <br>
+                <input type="radio" id="mentor">
+                <label for="mentor">Mentor</label>
+                <br>
+                <input type="radio" id="peer">
+                <label for="peer">Peer</label>
+                <br>
+                <input type="radio" id="recruiter">
+                <label for="recruiter">Recruiter</label>
+                <br>
+                <input type="radio" id="educator">
+                <label for="educator">Educator</label>
+                <br>
+                <input type="radio" id="other">
+                <label for="other">Other</label>
+                <br>
+            </fieldset>
+            <br>
+            
+            <label for="message">*Reason for Connecting</label>
+            <textarea name="message" id="message" required></textarea>
+
+            <div id="button-container">
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
     </main>
 
     <footer>
