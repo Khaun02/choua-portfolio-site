@@ -10,13 +10,22 @@
 form {
     padding: 2rem;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     background-color: #f2f9ff;
     border: 0.10rem solid black;
     border-radius: 1rem;
 }
 
-input, textarea{
+input[type="text"], input[type="email"], input[type="tel"],  textarea{
     margin-bottom: 1rem;
     display: block;
+    width: 100%;
+}
+
+textarea {
+    height: 10rem;
+}
+
+#button-container {
+    text-align: center;
 }
