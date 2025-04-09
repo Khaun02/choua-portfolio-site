@@ -3,3 +3,20 @@
     04/09/2025
 */
 
+.contact-info {
+    text-align: center;
+}
+
+form {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #f2f9ff;
+    border: 0.10rem solid black;
+    border-radius: 1rem;
+}
+
+input, textarea{
+    margin-bottom: 1rem;
+    display: block;
+}
