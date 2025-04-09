@@ -3,6 +3,37 @@
     04/09/2025
 */
 
-body {
-    background-color: pink; /* temp for verifying connection */
+/* header css */
+header {
+    display: flex;
+}
+
+.nav-bar {
+    margin-left: auto;
+    justify-content: center;
+}
+
+/* footer css */
+footer {
+    background-color: #f2f9ff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.footer-nav nav a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    gap: 100px;
+    margin-right: 3rem;
+}
+
+.footer-copyright {
+    color: gray;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+img {
+    width: 50%;
 }
