@@ -3,3 +3,28 @@
     04/09/2025
 */
 
+main {
+    display: flex;
+
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-container {
+    flex: 1;
+}
+
+.about-container p{
+    padding-right: 3rem;
+}
+
+img {
+    width: 50%;
+}
