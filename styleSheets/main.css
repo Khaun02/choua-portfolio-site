@@ -6,48 +6,6 @@
 body {
     margin: 0;
     padding: 0;
-}
-/* header css */
-header {
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-header h1 {
-    margin-left: 3rem;
-}
-
-nav {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    justify-content: center;
-    text-align: center;
-}
-
-nav a{
-    text-decoration: none;
-    color: black;
-    margin-right: 3rem;
-}
-
-/* footer css */
-footer {
-    background-color: #f2f9ff;
-    padding: 3rem;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.footer-nav nav a{
-    text-decoration: none;
-    color: black;
-    gap: 100px;
-    margin-right: 3rem;
-}
-
-.footer-copyright {
-    color: gray;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
+    background-color: #fff5f5;
+    color: #3e3e3e;
 }
