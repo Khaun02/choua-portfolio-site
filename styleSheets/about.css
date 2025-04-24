@@ -4,8 +4,8 @@
 */
 
 main {
-    display: flex;
-
+    width: 60%;
+    margin: 0 auto;
 }
 
 .image-container {
@@ -26,5 +26,6 @@ main {
 }
 
 img {
-    width: 50%;
+    width: 25%;
 }
+
