@@ -2,4 +2,17 @@
     Shaun Khang
     04/09/2025
 */
+/* table css */
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
 
+th, td {
+    padding: 2rem;
+}
+
+.about-choua-table {
+    text-align: center;
+}

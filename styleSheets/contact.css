@@ -8,24 +8,27 @@
 }
 
 form {
-    padding: 2rem;
+    padding: 1rem;
     margin: 0 auto;
     width: 40%;
-    background-color: #f2f9ff;
-    border: 0.10rem solid black;
-    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 20px #3e3e3e;
 }
 
-input[type="text"], input[type="email"], input[type="tel"],  textarea{
+input[type="text"], input[type="email"], input[type="tel"], textarea{
+    display: inline-block;
     margin-bottom: 1rem;
-    display: block;
-    width: 100%;
 }
 
-textarea {
-    height: 10rem;
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 2rem;
 }
 
 #button-container {
-    text-align: center;
+    margin-top: 2rem;
+}
+
+.text-area-message textarea{
 }
