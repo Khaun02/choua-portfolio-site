@@ -40,29 +40,34 @@
         
         <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
 
-            <label for="name">Name *</label>
-            <input type="text" id="name" name="name" required>
-            <br>
+            <div class="form-container">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-container">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-container">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" maxlength="10">
+            </div>
+            
+            <div class="form-container">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
 
-            <label for="email">Email *</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" maxlength="10">
-            <br>
-
-            <label for="subject">Subject *</label>
-            <input type="text" id="subject" name="subject" required>
-            <br>
-
-            <div class="text-area-message">
+            <div class="form-container">
                 <label for="message">Message *</label>
                 <textarea name="message" id="message" required></textarea>
             </div>
             
-            <div id="button-container">
-                <input type="submit" value="Submit">
+            <div class="button-container">
+                <input type="submit" value="Let's Network">
+                <input type="reset" value="Clear Form">
             </div>
         </form>
     </main>

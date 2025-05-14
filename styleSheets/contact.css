@@ -7,28 +7,3 @@
     text-align: center;
 }
 
-form {
-    padding: 1rem;
-    margin: 0 auto;
-    width: 40%;
-    background-color: white;
-    box-shadow: 0px 0px 20px #3e3e3e;
-}
-
-input[type="text"], input[type="email"], input[type="tel"], textarea{
-    display: inline-block;
-    margin-bottom: 1rem;
-}
-
-label {
-    display: inline-block;
-    width: 100px;
-    margin-right: 2rem;
-}
-
-#button-container {
-    margin-top: 2rem;
-}
-
-.text-area-message textarea{
-}
