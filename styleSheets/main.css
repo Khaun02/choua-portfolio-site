@@ -23,7 +23,7 @@ header.nav {
     justify-content: space-around;
 }
 
-header a:hover {
+header a:hover{
     color: red;
 }
 

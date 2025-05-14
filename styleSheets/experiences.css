@@ -3,10 +3,22 @@
     04/09/2025
 */
 
+main {
+    width: 60%;
+    margin: 0 auto;
+}
 
 img {
     width: 50%;
     max-width: 100%;
+}
+
+a img {
+    width: 50px;
+}
+
+.back-to-top {
+    text-align: center;
 }
 
 .experience-container h2 {
@@ -21,4 +33,12 @@ img {
 .experience-container {
     text-align: center;
     margin-bottom: 6rem;
+}
+
+a h2:hover {
+    color: red;
+}
+
+a.experience-links {
+    text-decoration: none;
 }
