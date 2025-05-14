@@ -72,7 +72,7 @@ form {
     box-shadow: 0px 0px 20px #3e3e3e;
 }
 
-input[type="text"], input[type="email"], input[type="tel"] {
+input[type="text"], input[type="email"], input[type="tel"], select{
     display: inline-block;
     margin-bottom: 1rem;
     width: 250px;

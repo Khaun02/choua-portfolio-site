@@ -41,12 +41,12 @@
         <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
 
             <div class="form-container">
-                <label for="name">*Full Name</label>
+                <label for="name">Full Name *</label>
                 <input type="text" id="name" name="name" required>
             </div>
             
             <div class="form-container">
-                <label for="email">*Email</label>
+                <label for="email">Email *</label>
                 <input type="email" id="email" name="email" required>
             </div>
 
@@ -77,9 +77,52 @@
                 <br>
             </fieldset>
             <br>
+
+            <fieldset>
+                <legend>Connection Interests: </legend>
+                <input type="checkbox" id="tech" name="tech" value="TCH">
+                <label for="tech">Tech</label>
+                <br><br>
+
+                <input type="checkbox" id="mentorship" name="mentorship" value="MTR">
+                <label for="mentorship">Mentorship</label>
+                <br><br>
+
+                <input type="checkbox" id="career" name="career" value="CRR">
+                <label for="career">Career Growth</label>
+                <br><br>
+
+                <input type="checkbox" id="collab" name="collab" value="CLB">
+                <label for="collab">Collaboration</label>
+                <br><br>
+
+                <input type="checkbox" id="projects" name="projects" value="PRJ">
+                <label for="projects">Freelance Project</label>
+                <br><br>
+
+                <input type="checkbox" id="events" name="events" value="EVT">
+                <label for="events">Events</label>
+                <br><br>
+
+                <input type="checkbox" id="other-interests" name="other-interests" value="OTH">
+                <label for="other-interests">Other</label>
+                <br><br>
+            </fieldset>
+            <br>
+
+            <div class="form-container">
+                <label for="contact-method">Contact Method *</label>
+                <select id="contact-method" name="contact-method">
+                    <option value="n/a">--SELECT--</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="LinkedIn">Linked In</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
             
             <div class="form-container">
-                <label for="message">*Reason for Connecting</label>
+                <label for="message">Reason for Connecting *</label>
                 <textarea name="message" id="message" required></textarea>
             </div>
             
