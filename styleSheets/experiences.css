@@ -3,10 +3,6 @@
     04/09/2025
 */
 
-main {
-    width: 60%;
-    margin: 0 auto;
-}
 
 img {
     width: 50%;
@@ -41,4 +37,12 @@ a h2:hover {
 
 a.experience-links {
     text-decoration: none;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 40em) {
+    .title-text h2 {
+        padding: 1.5rem;
+        font-size: 3.5rem;
+    }
 }

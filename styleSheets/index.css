@@ -65,4 +65,25 @@ nav a {
     margin-top: 0;
 }
 
-
+/* MEDIA QUERY */
+@media (max-width: 40em) {
+    h1 {
+        font-size: 6rem;
+        text-align: center;
+    }
+    img {
+        float: none;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    nav a{
+        display: block;
+        text-align: center;
+        margin: 0;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
