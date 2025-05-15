@@ -3,7 +3,6 @@
     04/09/2025
 */
 
-
 img {
     width: 50%;
     max-width: 100%;
@@ -38,7 +37,7 @@ a.experience-links {
 /* MEDIA QUERY */
 @media (max-width: 40em) {
     .title-text h2 {
-        padding: 1.5rem;
+        padding: 0;
         font-size: 3.5rem;
     }
     img {
