@@ -147,6 +147,7 @@ textarea {
     }
     .title-text h2 {
         margin-bottom: 1rem;
+        padding: 1.5rem;
     }
     /* FORMS */
     form {
