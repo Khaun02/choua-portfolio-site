@@ -9,10 +9,6 @@ img {
     max-width: 100%;
 }
 
-a img {
-    width: 50px;
-}
-
 .back-to-top {
     text-align: center;
 }
@@ -45,4 +41,10 @@ a.experience-links {
         padding: 1.5rem;
         font-size: 3.5rem;
     }
+    img {
+        width: 100%;
+    }
+    a img {
+        width: 50px;
+    }    
 }
