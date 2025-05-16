@@ -8,6 +8,14 @@ img {
     max-width: 100%;
 }
 
+a h2:hover {
+    color: red;
+}
+
+a.experience-links {
+    text-decoration: none;
+}
+
 .back-to-top {
     text-align: center;
 }
@@ -24,14 +32,6 @@ img {
 .experience-container {
     text-align: center;
     margin-bottom: 6rem;
-}
-
-a h2:hover {
-    color: red;
-}
-
-a.experience-links {
-    text-decoration: none;
 }
 
 /* MEDIA QUERY */
